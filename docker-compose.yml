@@ -1,0 +1,6 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: weather_redis
+    ports:
+      - "6380:6379"
